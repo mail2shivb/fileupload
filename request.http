@@ -1,0 +1,6 @@
+### Upload + Ask
+POST http://localhost:8080/api/ask
+Content-Type: multipart/form-data
+
+file=@./sample.pdf
+question=Summarize key risks

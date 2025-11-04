@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+app:
+  azure:
+    tenant-id: "<YOUR_TENANT_ID>"
+    client-id: "<YOUR_APP_CLIENT_ID>"
+    client-secret: "<YOUR_APP_CLIENT_SECRET>"
+
+  graph:
+    drive-id: "<TARGET_DRIVE_ID>"
+    parent-path: "/Shared Documents/Uploads"
+
+  retrieval:
+    endpoint: "https://graph.microsoft.com/beta/copilot/retrieval/query"
+
+  openai:
+    endpoint: "https://<your-aoai-resource>.openai.azure.com"
+    api-key: "<AZURE_OPENAI_API_KEY>"
+    deployment: "<gpt-4o-mini-or-gpt-4o>"
